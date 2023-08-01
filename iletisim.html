@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sayfası</title>
+    <style>
+    </style>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("YKSYpHw24wmeYSSjo");
+})();
+
+</script>
+</head>
+<link rel="stylesheet" href="design.css">
+<ul>
+    <li><a href="index.html">ANASAYFA</a></li>
+   
+    <li>MAKALELER
+        <ul>
+            <li><a href="https://medium.com/@comuchain/daolarin-gelece%C4%9Fi%CC%87-9e4a5512ee50" target="_blank">DAO'LARIN GELECEĞİ</a></li>
+        </ul>
+        <li><a href="resimler.html" target="_blank">RESİMLER</a></li>
+</ul>
+<center>
+
+<body>
+    <center>
+        <br><br>
+    <h2><i><font face ="Tahoma", font color="darkblue">BİZE ULAŞIN FORMU</font></i></h2>
+    <label for="isim">Adınız:</label><br>
+  <input type="text" id="isim" name="isim" 
+  value=""><br><br>
+  <label for="soyisim">Soyadınız:</label><br>
+  <input type="text" id="soyisim" name="soyisim" 
+  value=""><br><br>
+  
+  <label for="mail">MailAdresiniz:</label><br>
+  <input type="text" id="mail" name="mail"
+  value=""><br><br>
+  <label for="telefon">TelefonNumaranız:</label><br>
+  <input type="text" id="telefon" name="telefon"
+  value=""><br><br>
+<button onClick="sendMail()">Gönder</button>
+
+</center>
+</center>
+
+</body>
+</html>

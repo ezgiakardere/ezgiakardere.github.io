@@ -1,0 +1,127 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230112/pngtree-light-color-simple-wind-light-yellow-maple-leaf-forest-background-image-image_1511740.jpg);
+  }
+  @media screen and (min-width: 600px){
+  body{
+  
+    .divleft{
+      position:absolute;
+      left:50px;
+      border:3px solid none;
+    
+      width:25%;
+      height:30%;
+    margin-top: 1%;
+   
+    }
+    .divmiddle {
+    
+      display:inline-block;
+     border:3% solid none;
+    
+      width:40%;
+      height:30%;
+    margin-top: 1%;
+   
+    }
+  
+    .divright {
+  position:absolute;
+      top: 10%;
+      right:4%;
+      border:2% solid none;
+    
+      width:25%;
+      height:30%;
+      
+  
+    }
+  
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px 50px 150px;
+    font-size: 13px;
+    text-align: center;
+  
+  }
+  }
+  
+  ul {
+    
+    text-align:center;
+    display: inline;
+    margin: 0;
+    padding: 15px 4px 15px 0;
+    list-style: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  ul li {
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px;
+    background-color:#d096b7;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 420px;
+  }
+  
+  ul li:hover {
+    
+  
+    margin-right: 2px;
+    margin-left: 10px;
+    background: #59026a;
+    color: #dc24ab;
+    
+  }
+  
+  ul li ul {
+   
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 150px;
+    box-shadow: none;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+  }
+  
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+  }
+  
+  ul li ul li:hover { background: #666; }
+  ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  p{
+    border-left: 100px solid rgb(102, 0, 51);
+    border-bottom:50px solid rgb(217, 192, 208);
+  
+    border-radius: 10px;
+    margin-left: 10px;
+    font-style: italic,bold;
+    
+   border-style: solid;
+   border-width: 4px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .detay{
+    text-align: center;
+    color:brown;
+    background-color: antiquewhite;
+  }
+  
